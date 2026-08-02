@@ -65,7 +65,7 @@ The firmware is written in standard C and can be compiled using `gcc` or flashed
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/smart-pond-aerator-control.git
+git clone https://github.com/ShivaOrigin/smart-pond-aerator-control.git
 cd smart-pond-aerator-control/firmware
 
 # Compile C firmware
