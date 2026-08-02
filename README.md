@@ -64,10 +64,11 @@ smart-pond-aerator-control/
 The firmware is written in standard C and can be compiled using `gcc` or flashed to an AVR/ARM target.
 
 ```bash
-# Navigate to firmware directory
-cd firmware
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/smart-pond-aerator-control.git
+cd smart-pond-aerator-control/firmware
 
-# Compile
+# Compile C firmware
 gcc smart_pond.c -o smart_pond
 
 # Run executable
