@@ -53,9 +53,7 @@ smart-pond-aerator-control/
 ├── firmware/
 │   └── smart_pond.c           # Core embedded C firmware source code
 ├── docs/
-│   ├── circuit_diagram.png    # Hardware pinout & sensor wiring schematic
 │   └── VisionXHackathonCertificate.jpeg  # Hackathon participation certificate
-├── .gitignore                 # Excludes compiled build binaries (.o, .exe, build/)
 ├── LICENSE                    # MIT License
 └── README.md                  # System architecture & documentation
 ```
