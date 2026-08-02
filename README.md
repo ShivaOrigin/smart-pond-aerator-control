@@ -46,6 +46,21 @@ This firmware processes analog inputs from DO, temperature, and pH probes to tri
 
 ---
 
+## Repository Structure
+
+```text
+smart-pond-aerator-control/
+├── firmware/
+│   └── smart_pond.c           # Core embedded C firmware source code
+├── docs/
+│   ├── circuit_diagram.png    # Hardware pinout & sensor wiring schematic
+│   └── VisionXHackathonCertificate.jpeg  # Hackathon participation certificate
+├── .gitignore                 # Excludes compiled build binaries (.o, .exe, build/)
+├── LICENSE                    # MIT License
+└── README.md                  # System architecture & documentation
+```
+---
+
 ## Build & Test
 
 The firmware is written in standard C and can be compiled using `gcc` or flashed to an AVR/ARM target.
