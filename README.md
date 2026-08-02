@@ -72,3 +72,8 @@ gcc smart_pond.c -o smart_pond
 
 # Run executable
 ./smart_pond
+```
+---
+## License
+
+Distributed under the [MIT License](LICENSE).
